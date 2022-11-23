@@ -1,16 +1,16 @@
 pragma solidity ^0.5.0;
 
 // NOT A COMPLETE AGREEMENT.
-// IT IS DRAFTED IN AN ATTEMPT TO EXPLAIN HOW AN AGREEMENT CAN BE EXECUTED AND PAYED FOR ON THE BLOCKCHAIN.
-// THERE ARE MANY DIFFERENT PROVISIONS THAT NEED TO NEGOTIATED AND INCLUDED IN THE ACTUAL AGREEMENT.
+// IT IS DRAFTED IN AN ATTEMPT TO EXPLAIN HOW AN AGREEMENT CAN BE EXECUTED AND PAID FOR ON THE BLOCKCHAIN. 
+// THERE ARE MANY DIFFERENT PROVISIONS THAT NEED TO BE NEGOTIATED AND INCLUDED IN THE ACTUAL AGREEMENT.
 
 //------------------- BLOCKCHAIN CONSTRUCTION AGREEMENT ---------------
-// This Blockchain Construction Agreement ("Agreement") is hereby entered into on [DATE], by and between, the [AGENT COMPANY],
-// duly represented in accordance with its [bylaws/articles of incorporation, articles of organization, etc.] ("Agent"),
-// headquartered at [Address], duly represented in accordance with its [bylaws/articles of incorporation, articles of organization, etc.],
-// [CONTRACTOR COMPANY], headquartered at [Address], duly represented in accordance with its [bylaws/articles of
+// This Blockchain Construction Agreement ("Agreement") is hereby entered into on [DATE], by and between, the [AGENT COMPANY], 
+// duly represented in accordance with its [bylaws/articles of incorporation, articles of organization, etc.] ("Agent"), 
+// headquartered at [Address], duly represented in accordance with its [bylaws/articles of incorporation, articles of organization, etc.], 
+// [CONTRACTOR COMPANY], headquartered at [Address], duly represented in accordance with its [bylaws/articles of 
 // incorporation/articles of organization, etc.] and [DEVELOPER COMPANY], headquartered at [Address], duly represented in accordance with its
-// [bylaws/articles of incorporation/articles or organization, etc.],
+// [bylaws/articles of incorporation/articles of organization, etc.], 
 // pursuant to the following terms and conditions:
 
 contract ConstructionAgreement {
@@ -63,10 +63,10 @@ contract ConstructionAgreement {
     }
 
     // Whereas:
-    // I - This Agreement implements the payment arrangements for the Contractor to perform the services to the Developer listed below
+    // I - This Agreement implements the payment arrangements for the Contractor to perform the services to the Developer listed below 
     //and be remunerated by the Agent on the blockchain.
 
-    // II - The Developer owns the property located ot [ADDRESS] ("The Property"), and provided original documention
+    // II - The Developer owns the property located ot [ADDRESS] ("The Property"), and provided original documention 
     // to provide evidence of the owernship thereof, submitted by postal or courier service with proof of receipt and submitted to the Interplanetary File System ("IPFS") account, provided by the Agent.
 
     // III -  Contractor is a duly licensed general contractor in [LOCATION], in good standing, with the license number [LICENSE NUMBER], and has provided evidence thereof by postal or courier service with proof of receipt, and submitted to the IPFS and have provided the content address to the Agent.
@@ -75,14 +75,14 @@ contract ConstructionAgreement {
 
     // NOW THEREFORE, in consideration of the mutual promises agreed to herein, and for other good and valuable consideration, exchanged between the Parties, set forth in this Agreement, the Parties hereof agree to the following:
 
-    // Scope of Work. Contractor shall perform the work described in Exhibit A (the "Work"), in accordance with Developor's contract plans and specification,
+    // Scope of Work. Contractor shall perform the work described in Exhibit A (the "Work"), in accordance with Developor's contract plans and specification, 
     // this Agreement and any Change Order, as defined herein (collectively the "Agreement Documents"), in the Property.
 
-    // Contract Price and Payments. The full amount of the Agreement shall be deposited by the Developer in the Agent's address listed above before performance
+    // Contract Price and Payments. The full amount of the Agreement shall be deposited by the Developer in the Agent's address listed above before performance 
     // of the Agreement shall commence. The Agent agres to pay in installments, to the Contractor for the Work in the total amount of $USDC [AMOUNT] in digital United States Dollars, the stable coin, managed by a consortium called Centre, which was founded by Circle and includes members from the cryptocurrency exchange Coinbase and Bitcoin mining company Bitmain, an investor in Circle.
 
-    // Installment Payments. The install payments shall be paid, according to the phases completed, pursuant to the Certificates of Completion
-    //("Exhibit B"), and the Contractor shall notify the Developer that the Work is ready for
+    // Installment Payments. The install payments shall be paid, according to the phases completed, pursuant to the Certificates of Completion 
+    //("Exhibit B"), and the Contractor shall notify the Developer that the Work is ready for 
     // inspection of the four (4) phases defined in Exhibit A.
 
     // Agent's Remuneration. The Agent shall be remunerated for executing the Blockahin Agreement System in accordance with the terms set out in Exhibit C in the total amount of USDC$ [INSERT AMOUNT].
@@ -147,6 +147,7 @@ contract ConstructionAgreement {
         }
     }
 
+
     function agentRemuneration(
         bool agentRemunerationCompleted,
         uint256 amount,
@@ -161,6 +162,7 @@ contract ConstructionAgreement {
             accountBalance = address(this).balance;
         }
     }
+
 
     // Smart Contract Accounts Receivable
     function deposit() public payable {
@@ -199,8 +201,17 @@ contract ConstructionAgreement {
 
 // TITLE: _____________________________________
 
+
+
+
 // EXHIBT A - SCOPE OF WORK
 
+
+
+
 // EXHIBIT B - CERTIFICATE OF COMPLETION
+
+
+
 
 // EXHBIT C - AGENT'S REMUNERATION
